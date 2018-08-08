@@ -58,7 +58,7 @@
   },
   "variables": {
     "vhdStorageAccountName": "[concat('vhds', uniqueString(resourceGroup().id))]",
-    "storageAccountType": "Premium_LRS",
+    "storageAccountType": "Standard_LRS",
     "adPDCVMName": "rmon-adc1",
     "adBDCVMName": "rmon-adc2",
     "imagePublisher": "MicrosoftWindowsServer",
